@@ -12,3 +12,10 @@ body {
                 "navbar main-view main-view"
                 "player player player";
 }
+
+.nav-bar {
+    grid-area: navbar;
+    background-color: rgb(0, 0,0, .8);
+    width: 230px;
+    flex: 1;
+}
