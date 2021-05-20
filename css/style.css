@@ -19,3 +19,10 @@ body {
     width: 230px;
     flex: 1;
 }
+
+.top-bar{
+    grid-area: "main-view";
+    height: 60px;
+    z-index: 2;
+
+}
