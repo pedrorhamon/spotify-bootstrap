@@ -17,12 +17,20 @@ body {
     grid-area: navbar;
     background-color: rgb(0, 0,0, .8);
     width: 230px;
+    min-height: 0;
     flex: 1;
 }
 
 .top-bar{
-    grid-area: "main-view";
+    grid-area: main-view;
     height: 60px;
-    z-index: 2;
+    z-index: 2
+}
 
+.main{
+    grid-area: main-view;
+    flex: 1;
+    height: 100%;
+    min-height: 0;
+    overflow-y: scroll;
 }
