@@ -3,6 +3,10 @@ body {
     box-sizing: border-box;
 }
 
+.nav-bar .navbar-nav .nav-item a:hover{
+    opacity: 1;
+}
+
 .root{
     height: 100vh;
     position: relative;
@@ -45,4 +49,27 @@ body {
 .nav-bar-header .logo{
   width: 131px;
   max-height: 40px;
+}
+
+.nav-bar .navbar-nav {
+    padding: 0 8px;
+}
+
+.nav-bar .navbar-nav .nav-item a {
+    border-radius: 4px;
+    padding: 0 16px;
+    height: 40px;
+    color: #fff;
+    opacity: .6;
+    font-weight: 500;
+}
+
+.nav-bar .navbar-nav .nav-item.active a {
+    background-color: #282828;
+    opacity: 1;
+}
+
+.nav-bar .navbar-nav .nav-item i {
+    font-size: 22px;
+    margin-right: 16px;
 }
