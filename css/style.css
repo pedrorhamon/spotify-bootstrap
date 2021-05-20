@@ -1,5 +1,6 @@
 body {
     background-color: #121212;
+    box-sizing: border-box;
 }
 
 .root{
@@ -33,4 +34,15 @@ body {
     height: 100%;
     min-height: 0;
     overflow-y: scroll;
+}
+
+.player{
+   grid-area: player;
+   background-color: #181818;
+   height: 90px;
+}
+
+.nav-bar-header .logo{
+  width: 131px;
+  max-height: 40px;
 }
