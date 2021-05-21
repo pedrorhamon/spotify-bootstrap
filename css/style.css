@@ -3,7 +3,7 @@ body {
     box-sizing: border-box;
 }
 
-.nav-bar .navbar-nav .nav-item a:hover{
+.nav-bar .navbar-nav .nav-item a:hover, .root-list-item:hover{
     opacity: 1;
 }
 
@@ -87,3 +87,30 @@ body {
     margin-left: 24px;
     margin-bottom: 12px;
 }
+
+.root-list-item{
+    padding: 5px 24px 5px 24px;
+    color: #fff;
+    opacity: .6;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.root-list-icon{
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    margin-right: 16px;
+}
+
+.root-list-icon.heart{
+    background: linear-gradient(135deg,#450af5,#c4efd9);
+}
+
+.root-list-divider{
+    margin: 8px 24px;
+    background-color: 24px;
+    border: none;
+    height: 1px;
+}
+
