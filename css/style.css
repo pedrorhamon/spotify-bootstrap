@@ -73,3 +73,17 @@ body {
     font-size: 22px;
     margin-right: 16px;
 }
+
+.root.list{
+    flex: 1;
+    min-height: 0;
+}
+
+.root-list .root-list-header h2{
+    font-size: 11px;
+    color: #b3b3b3;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    margin-left: 24px;
+    margin-bottom: 12px;
+}
