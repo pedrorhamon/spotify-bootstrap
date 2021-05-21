@@ -3,7 +3,18 @@ body {
     box-sizing: border-box;
 }
 
-.nav-bar .navbar-nav .nav-item a:hover, .root-list-item:hover{
+a{
+    text-decoration: none !important;
+}
+
+::-webkit-scrollbar{
+    width: 16px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: hsla(0,0%,100%,.3);
+}
+.nav-bar .navbar-nav .nav-item a:hover, .root-list-item:hover, .play-list-scroll li a:hover{
     opacity: 1;
 }
 
@@ -112,5 +123,19 @@ body {
     background-color: 24px;
     border: none;
     height: 1px;
+}
+
+.play-list-scroll{
+    padding: 8px 24px !important;
+}
+
+.play-list-scroll li a{
+    color: #fff;
+    opacity: .6;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    height: 32px;
 }
 
