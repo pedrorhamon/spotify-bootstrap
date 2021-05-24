@@ -66,6 +66,12 @@ button {
    height: 60px;
 }
 
+.main .margin-container{
+    padding: 16px 32px;
+    flex: 1;
+    min-height: 0;
+}
+
 .player{
    grid-area: player;
    background-color: #181818;
