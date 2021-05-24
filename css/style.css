@@ -154,3 +154,14 @@ a{
     height: 40px;
 }
 
+.top-bar header{
+    padding: 16px 48px 16px 32px;
+}
+
+.top-bar header .icons-action-left button{
+    border: none;
+    height: 32px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .7);
+}
