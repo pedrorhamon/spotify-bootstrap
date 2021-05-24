@@ -181,3 +181,29 @@ a{
 .top-bar .btn-upgrade:hover{
     transform: scale(1.07);
 }
+
+.top-bar .menu .avatar{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.top-bar .menu button{
+    border-radius: 23px;
+    height: 32px;
+    border: none;
+    color: #fff;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.top-bar .menu button span{
+    margin-left: 8px;
+    font-weight: 700;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 110px;
+}
