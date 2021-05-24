@@ -260,3 +260,10 @@ button {
     margin: 0;
 }
 
+.main .title{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -.04em;
+    color: #fff;
+}
+
